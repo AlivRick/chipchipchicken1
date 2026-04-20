@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
         hostname: "images.pexels.com",
       },
     ],
-    unoptimized: process.env.NODE_ENV === "development",
+    unoptimized: true,
   },
 };
 
