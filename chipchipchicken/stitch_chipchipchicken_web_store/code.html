@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ChipChipChicken - The Kinetic Kitchen</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&amp;family=Work+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-high": "#e5e1e8",
+                        "on-secondary": "#fff1db",
+                        "on-surface-variant": "#5d5b5f",
+                        "on-tertiary-fixed": "#00460e",
+                        "surface-container": "#ebe7ed",
+                        "background": "#faf5fb",
+                        "tertiary-fixed": "#9df197",
+                        "error-dim": "#a70138",
+                        "on-primary": "#ffefec",
+                        "primary-fixed-dim": "#ff5c34",
+                        "on-error-container": "#510017",
+                        "on-secondary-fixed": "#443100",
+                        "error": "#b41340",
+                        "on-primary-container": "#490b00",
+                        "surface-variant": "#e0dbe3",
+                        "inverse-primary": "#ff562c",
+                        "surface-bright": "#faf5fb",
+                        "surface": "#faf5fb",
+                        "inverse-on-surface": "#9f9ca1",
+                        "on-error": "#ffefef",
+                        "tertiary-dim": "#025d16",
+                        "inverse-surface": "#0e0e11",
+                        "tertiary-fixed-dim": "#90e28a",
+                        "secondary": "#755700",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-container": "#5c4400",
+                        "secondary-fixed-dim": "#f7ba00",
+                        "primary-dim": "#9a2100",
+                        "tertiary-container": "#9df197",
+                        "on-primary-fixed": "#000000",
+                        "on-primary-fixed-variant": "#5a0f00",
+                        "primary": "#af2700",
+                        "surface-container-low": "#f4eff5",
+                        "on-tertiary": "#d1ffc8",
+                        "secondary-fixed": "#ffca4d",
+                        "error-container": "#f74b6d",
+                        "surface-tint": "#af2700",
+                        "on-secondary-fixed-variant": "#674c00",
+                        "primary-container": "#ff7856",
+                        "surface-container-highest": "#e0dbe3",
+                        "outline-variant": "#afacb1",
+                        "tertiary": "#176a21",
+                        "on-tertiary-container": "#005c15",
+                        "primary-fixed": "#ff7856",
+                        "secondary-container": "#ffca4d",
+                        "on-tertiary-fixed-variant": "#12661e",
+                        "secondary-dim": "#664b00",
+                        "on-background": "#2f2e32",
+                        "on-surface": "#2f2e32",
+                        "surface-dim": "#d7d3db",
+                        "outline": "#78767b"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {},
+                    "fontFamily": {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Work Sans"],
+                        "label": ["Work Sans"]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-surface text-on-surface font-body overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-2xl dark:bg-stone-900/80 no-border shadow-none">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto w-full">
+<div class="text-2xl font-black italic tracking-tighter text-orange-600 dark:text-orange-500 uppercase font-['Plus_Jakarta_Sans']">
+                ChipChipChicken
+            </div>
+<div class="hidden md:flex gap-8 font-['Plus_Jakarta_Sans'] font-bold tracking-tight">
+<a class="text-stone-800 dark:text-stone-200 hover:text-orange-500 hover:scale-105 transition-all duration-300" href="#">Menu</a>
+<a class="text-stone-800 dark:text-stone-200 hover:text-orange-500 hover:scale-105 transition-all duration-300" href="#">About Us</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary rounded-full px-6 py-2 font-headline font-bold text-sm hover:scale-105 active:scale-95 transition-all duration-300 shadow-[0_20px_40px_rgba(175,39,0,0.2)]">
+                Order Now
+            </button>
+</div>
+</nav>
+<main class="pt-24 pb-16">
+<!-- Hero Section -->
+<section class="relative max-w-7xl mx-auto px-6 mb-32">
+<div class="flex flex-col lg:flex-row items-center gap-12 bg-surface-container-low rounded-xl p-8 lg:p-16 relative overflow-hidden">
+<div class="lg:w-1/2 z-10">
+<h1 class="font-headline text-5xl lg:text-7xl font-extrabold tracking-tighter text-primary-dim mb-6 leading-tight">
+                        Bữa ăn trọn vẹn trong một hộp giấy
+                    </h1>
+<p class="font-body text-lg lg:text-xl text-on-surface-variant mb-8 max-w-md">
+                        Trải nghiệm ẩm thực đường phố hiện đại, đầy đủ dinh dưỡng, nhanh gọn và bùng nổ hương vị.
+                    </p>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary rounded-full px-8 py-4 font-headline font-bold text-lg hover:scale-105 active:scale-95 transition-all duration-300 shadow-[0_20px_40px_rgba(175,39,0,0.3)]">
+                        Đặt hàng ngay
+                    </button>
+</div>
+<div class="lg:w-1/2 relative h-[400px] lg:h-[600px] w-full rounded-xl overflow-hidden">
+<img alt="Crispy Fried Chicken" class="absolute inset-0 w-full h-full object-cover rounded-xl transform rotate-3 scale-110 shadow-[0_20px_40px_rgba(175,39,0,0.15)] z-0" data-alt="crispy golden fried chicken pieces in a premium cardboard container with fresh herbs and a side of golden fries, vibrant street food lighting, high contrast" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY9T-OuSXCpw6G_T8xQlZPdN0X785JRUN00tOkzHzR-6Xbh58jwqiA9Wq5A1tzO0ikndTjU4xSN5VdoKvDWRFCQ_1RyXPpfeq3ZepWjZqHJ6cVkFkFZD43Vf2c_4GtGKw7Dw2xAa0rGDH0a6won1_as5q2WCgGslE6qZ0Meb65QON_YY4hH6ypWQVWisR6jTrSHclndb3zXLlhYJJFm2bfdSQildnqazUt6qL-p7OvB1yyRbsNLeCqbJKD5_4ut6mplMzXzRzjRI0G"/>
+</div>
+</div>
+</section>
+<!-- Concept Section -->
+<section class="max-w-7xl mx-auto px-6 mb-32">
+<h2 class="font-headline text-4xl font-extrabold tracking-tight text-on-surface mb-12 text-center">
+                Mô hình <span class="text-primary">All-in-one</span>
+</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Protein -->
+<div class="bg-surface-container-lowest p-8 rounded-xl relative overflow-hidden shadow-[0_20px_40px_rgba(175,39,0,0.05)]">
+<div class="text-primary-container mb-4">
+<span class="material-symbols-outlined text-5xl" style="font-variation-settings: 'FILL' 1;">restaurant_menu</span>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-4">Protein</h3>
+<p class="font-body text-on-surface-variant">Gà rán giòn rụm hoặc gà nướng mọng nước, tẩm ướp đậm đà.</p>
+</div>
+<!-- Carb -->
+<div class="bg-surface-container-lowest p-8 rounded-xl relative overflow-hidden shadow-[0_20px_40px_rgba(175,39,0,0.05)] translate-y-4">
+<div class="text-secondary mb-4">
+<span class="material-symbols-outlined text-5xl" style="font-variation-settings: 'FILL' 1;">rice_bowl</span>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-4">Carb</h3>
+<p class="font-body text-on-surface-variant">Cơm dẻo thơm, xôi mặn mặn ngọt ngọt, hoặc khoai tây chiên vàng ươm.</p>
+</div>
+<!-- Veggies -->
+<div class="bg-surface-container-lowest p-8 rounded-xl relative overflow-hidden shadow-[0_20px_40px_rgba(175,39,0,0.05)] translate-y-8">
+<div class="text-tertiary mb-4">
+<span class="material-symbols-outlined text-5xl" style="font-variation-settings: 'FILL' 1;">eco</span>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-4">Veggies</h3>
+<p class="font-body text-on-surface-variant">Salad tươi mát hoặc dưa muối chua ngọt cân bằng vị giác.</p>
+</div>
+</div>
+<div class="mt-20 bg-surface-container-low rounded-xl p-8 flex flex-col lg:flex-row items-center gap-12">
+<div class="lg:w-1/2">
+<h3 class="font-headline text-3xl font-bold text-primary mb-4">Bao Bì Thiết Kế Riêng</h3>
+<p class="font-body text-lg text-on-surface-variant mb-6">Hộp giấy 2/3 ngăn thông minh, giữ nguyên hương vị từng phần ăn, chống sốc và thân thiện với môi trường.</p>
+<ul class="space-y-3 font-body text-on-surface">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary">check_circle</span> Ngăn cách thông minh</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary">check_circle</span> Giữ nhiệt tốt</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary">check_circle</span> Chất liệu phân hủy sinh học</li>
+</ul>
+</div>
+<div class="lg:w-1/2 h-[300px] w-full rounded-xl overflow-hidden relative">
+<img alt="Packaging Concept" class="w-full h-full object-cover" data-alt="eco-friendly partitioned cardboard food container filled with colorful street food, top-down view, bright studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEVf7eaaYXGKGAwm_dCZVJUtvyQDL0tn0IkItDAFqVd6oQRVyINVB8Qo9oPoDvj0wobV1I8mG7I50u3Xa-OfVp-e-L2TMkJvDgPEZz7P3DoayZundInyvpu0aLbL-J7lXtGTmAsTNyTTbHrwlf3PsWXrf7HprLI7RdU6t7sZnzqOOQuMlAsEXYQwHpxz8CTXrjJRfpk5lMc6ydo2uCMNsPJnEGY0AKsNd0IcDzvK6tY-DY_rhQs3F6OS0mNvO17fBOJyMm8Yjq3O38"/>
+</div>
+</div>
+</section>
+<!-- Best Sellers -->
+<section class="bg-primary/5 py-24 mb-32 rounded-3xl mx-4 lg:mx-12">
+<div class="max-w-7xl mx-auto px-6">
+<h2 class="font-headline text-4xl font-extrabold tracking-tight text-primary-dim mb-16 text-center">
+                    Best Sellers
+                </h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<!-- Item 1 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_20px_40px_rgba(175,39,0,0.08)] group">
+<div class="h-64 overflow-hidden relative">
+<img alt="Gà Fusion sốt Pesto" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="crispy fried chicken wings glazed in rich green basil pesto sauce, served on a rustic wooden board, moody dramatic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7nDsoH9_f48ltZGzZu0HKLnMfKPNFjEzFRHJElVzmfPiCTQofjPm5x6h1dnnnu78UbfkI0McC3MDNdXfrVpCAGR0vXe4Ucis3CEKj6XxgdKd8wI9oTlCIUAw5A4tT0anEmWdNo-DSiWnz5OLcbWx5izIqra-4ufmOSD7h1-xlIyTPBn_sdVCvXU2S8uulb4jGJ8HdQxPG6Add_5Iy7XM1rzdmg_3Ayp8msvzYbbNYdKyJgrNH9nLidwjiUxXcJqE64HCMtfqtUUWU"/>
+<div class="absolute top-4 left-4 bg-tertiary-container text-on-tertiary-container text-xs font-bold px-3 py-1 rounded-sm uppercase tracking-wider font-label">
+                                Fusion
+                            </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline text-2xl font-bold mb-2">Gà Fusion sốt Pesto</h3>
+<p class="font-body text-on-surface-variant mb-6">Sự kết hợp táo bạo giữa gà rán giòn rụm phong cách Á và sốt Pesto húng quế Ý thơm lừng.</p>
+<div class="flex justify-between items-center">
+<span class="font-headline text-xl font-bold text-primary">85.000đ</span>
+<button class="bg-secondary-container text-on-secondary-container rounded-full px-6 py-2 font-headline font-bold text-sm hover:scale-105 transition-all duration-300">
+                                    Thêm
+                                </button>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_20px_40px_rgba(175,39,0,0.08)] group translate-y-8">
+<div class="h-64 overflow-hidden relative">
+<img alt="Gà Sốt Trứng Muối" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="golden fried chicken pieces coated in rich yellow salted egg yolk sauce, sprinkled with curry leaves, warm appetizing lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDB5bxs6vNOPa8QAHyaiJ0L9zM9nZ_5UYZ2TA7Q-9dOA5WhEREem0wzDLd9qyGcBvWmL-Ew1Br1Bi2TRjwYz4HcZyWAU1sHatDYU_r81buVje9L5vXLIc0lJZMPPeJBMU3W9VPAZU8RFg_4Cs2Rc18bFoc2vAR3Szn2gOQKlWLKTI7PIYEePnpuT3K86-YnJiwTQBthoIMWvrlPat-ZQRHTh0MJEquXMsu4iO-SzWgPFyDrw4SKtYq56Bdgeuh7ngYjlI7uFPRD-1rL"/>
+<div class="absolute top-4 left-4 bg-secondary-container text-on-secondary-container text-xs font-bold px-3 py-1 rounded-sm uppercase tracking-wider font-label">
+                                Signature
+                            </div>
+</div>
+<div class="p-6">
+<h3 class="font-headline text-2xl font-bold mb-2">Gà Sốt Trứng Muối</h3>
+<p class="font-body text-on-surface-variant mb-6">Hương vị bùng nổ với lớp sốt trứng muối mặn ngọt, béo ngậy áo đều từng miếng gà giòn.</p>
+<div class="flex justify-between items-center">
+<span class="font-headline text-xl font-bold text-primary">90.000đ</span>
+<button class="bg-secondary-container text-on-secondary-container rounded-full px-6 py-2 font-headline font-bold text-sm hover:scale-105 transition-all duration-300">
+                                    Thêm
+                                </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonial Section -->
+<section class="max-w-5xl mx-auto px-6 mb-32 text-center">
+<div class="bg-surface-container-lowest p-12 rounded-xl shadow-[0_20px_40px_rgba(175,39,0,0.05)] relative">
+<span class="material-symbols-outlined text-primary/20 text-6xl absolute top-6 left-6" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+<p class="font-headline text-2xl lg:text-3xl font-bold italic text-on-surface mb-8 relative z-10 leading-relaxed">
+                    "Đây thực sự là một bữa ăn trọn vẹn! Gà giòn, sốt đậm đà và đóng gói cực kỳ thông minh. Giải pháp hoàn hảo cho dân văn phòng bận rộn."
+                </p>
+<div class="flex items-center justify-center gap-4">
+<div class="w-12 h-12 rounded-full bg-surface-container-high overflow-hidden">
+<img alt="Customer" class="w-full h-full object-cover" data-alt="portrait of a young asian woman smiling happily, soft outdoor lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvyY8JSPe0z1u5ROAtMtI5I8Ni6j0hTB-MO5ftfyTRt09VlfhtfGPWKuKrfzKy2bp7zTWKOp4J1pQj8SDrTiz7N4BGvIIT_uzHGlI4iKH9THzuFE9dFTjUIAHIhwWLVclWEyxkRTmFnROb2kWrO4mKiysdiEHDAFBQ3hEdQRzb7mOaK7KDKQyQQj-sNmNcFSyfScQRepSvYrqdxduu7yZ3rDFZHBItWVyDSbJe47Gkb0MPSihkZCM6wYUN8qRPYco-p_cQk3cqllOH"/>
+</div>
+<div class="text-left">
+<h4 class="font-headline font-bold text-on-surface">Minh Anh</h4>
+<p class="font-body text-sm text-on-surface-variant">Khách hàng thân thiết</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 px-6 bg-stone-50 dark:bg-stone-950 bg-stone-100 dark:bg-stone-900 flat no-shadows">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 max-w-7xl mx-auto">
+<div class="text-xl font-black text-stone-900 dark:text-stone-100 font-['Plus_Jakarta_Sans'] italic tracking-tighter">
+                ChipChipChicken
+            </div>
+<div class="flex flex-wrap justify-center gap-6 font-['Work_Sans'] text-sm uppercase tracking-widest text-stone-500 dark:text-stone-400">
+<a class="hover:text-orange-500 transition-colors" href="#">Menu</a>
+<a class="hover:text-orange-500 transition-colors" href="#">About Us</a>
+<a class="hover:text-orange-500 transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-orange-500 transition-colors" href="#">Terms of Service</a>
+</div>
+<div class="font-['Work_Sans'] text-sm uppercase tracking-widest text-stone-500 dark:text-stone-400">
+                © 2024 ChipChipChicken Kinetic Kitchen. All Rights Reserved.
+            </div>
+</div>
+</footer>
+</body></html>

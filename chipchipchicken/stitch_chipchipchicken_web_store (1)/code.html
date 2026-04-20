@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ChipChipChicken - Menu</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800;900&amp;family=Work+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error": "#b41340",
+                        "error-dim": "#a70138",
+                        "secondary-container": "#ffca4d",
+                        "surface": "#faf5fb",
+                        "on-error": "#ffefef",
+                        "on-tertiary-container": "#005c15",
+                        "inverse-primary": "#ff562c",
+                        "secondary-fixed-dim": "#f7ba00",
+                        "primary": "#af2700",
+                        "surface-dim": "#d7d3db",
+                        "secondary-fixed": "#ffca4d",
+                        "on-secondary-fixed-variant": "#674c00",
+                        "surface-container-low": "#f4eff5",
+                        "surface-container": "#ebe7ed",
+                        "on-surface-variant": "#5d5b5f",
+                        "inverse-surface": "#0e0e11",
+                        "primary-container": "#ff7856",
+                        "on-primary-container": "#490b00",
+                        "on-tertiary-fixed": "#00460e",
+                        "on-background": "#2f2e32",
+                        "surface-bright": "#faf5fb",
+                        "surface-variant": "#e0dbe3",
+                        "tertiary-container": "#9df197",
+                        "on-tertiary-fixed-variant": "#12661e",
+                        "on-secondary-container": "#5c4400",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-fixed": "#9df197",
+                        "outline": "#78767b",
+                        "on-primary-fixed": "#000000",
+                        "secondary": "#755700",
+                        "on-secondary": "#fff1db",
+                        "surface-tint": "#af2700",
+                        "primary-fixed": "#ff7856",
+                        "tertiary-dim": "#025d16",
+                        "tertiary": "#176a21",
+                        "on-surface": "#2f2e32",
+                        "primary-dim": "#9a2100",
+                        "surface-container-high": "#e5e1e8",
+                        "on-tertiary": "#d1ffc8",
+                        "on-error-container": "#510017",
+                        "inverse-on-surface": "#9f9ca1",
+                        "surface-container-highest": "#e0dbe3",
+                        "primary-fixed-dim": "#ff5c34",
+                        "outline-variant": "#afacb1",
+                        "on-secondary-fixed": "#443100",
+                        "background": "#faf5fb",
+                        "tertiary-fixed-dim": "#90e28a",
+                        "on-primary-fixed-variant": "#5a0f00",
+                        "on-primary": "#ffefec",
+                        "secondary-dim": "#664b00",
+                        "error-container": "#f74b6d"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {},
+                    "fontFamily": {
+                        "headline": [
+                            "Plus Jakarta Sans"
+                        ],
+                        "body": [
+                            "Work Sans"
+                        ],
+                        "label": [
+                            "Work Sans"
+                        ]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined.filled {
+            font-variation-settings: 'FILL' 1;
+        }
+        
+        /* Editorial Gradient */
+        .bg-gradient-editorial {
+            background-image: linear-gradient(135deg, theme('colors.primary'), theme('colors.primary-container'));
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface antialiased pt-[80px] pb-24 md:pb-0 overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_20px_40px_rgba(175,39,0,0.08)] transition-all">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-headline font-black text-on-surface tracking-tighter italic">
+                ChipChipChicken
+            </div>
+<!-- Desktop Nav -->
+<nav class="hidden md:flex gap-8 items-center">
+<a class="font-body text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#">Home</a>
+<a class="font-body text-primary font-extrabold hover:text-primary transition-colors duration-300" href="#">Menu</a>
+<a class="font-body text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#">Orders</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="text-primary hover:text-primary-container transition-colors duration-300 scale-95 active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-2xl">shopping_cart</span>
+</button>
+<button class="hidden md:block text-primary hover:text-primary-container transition-colors duration-300 scale-95 active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-2xl">account_circle</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Hero / Category Filter -->
+<section class="max-w-7xl mx-auto px-6 pt-12 pb-8">
+<h1 class="font-headline text-[3.5rem] leading-none font-black text-on-surface tracking-tight mb-8">
+            The Menu
+        </h1>
+<!-- Category Chips -->
+<div class="flex overflow-x-auto gap-4 pb-4 snap-x hide-scrollbar">
+<button class="snap-start shrink-0 px-6 py-3 rounded-full bg-gradient-editorial text-on-primary font-body font-bold text-sm tracking-wide">
+                All
+            </button>
+<button class="snap-start shrink-0 px-6 py-3 rounded-full bg-surface-container-lowest text-on-surface font-body font-medium text-sm tracking-wide shadow-[0_10px_20px_rgba(0,0,0,0.03)] hover:bg-surface-container transition-colors">
+                Combo All-in-one
+            </button>
+<button class="snap-start shrink-0 px-6 py-3 rounded-full bg-surface-container-lowest text-on-surface font-body font-medium text-sm tracking-wide shadow-[0_10px_20px_rgba(0,0,0,0.03)] hover:bg-surface-container transition-colors">
+                Gà Original
+            </button>
+<button class="snap-start shrink-0 px-6 py-3 rounded-full bg-surface-container-lowest text-on-surface font-body font-medium text-sm tracking-wide shadow-[0_10px_20px_rgba(0,0,0,0.03)] hover:bg-surface-container transition-colors">
+                Gà Fusion
+            </button>
+<button class="snap-start shrink-0 px-6 py-3 rounded-full bg-surface-container-lowest text-on-surface font-body font-medium text-sm tracking-wide shadow-[0_10px_20px_rgba(0,0,0,0.03)] hover:bg-surface-container transition-colors">
+                Món Phụ
+            </button>
+</div>
+</section>
+<!-- Menu Grid -->
+<main class="max-w-7xl mx-auto px-6 pb-24">
+<!-- Combo Section -->
+<div class="mb-20">
+<h2 class="font-headline text-2xl font-bold text-on-surface mb-8 border-l-4 border-primary pl-4">Combo All-in-one</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+<!-- Card 1 -->
+<article class="bg-surface-container-low rounded-xl overflow-visible relative group">
+<div class="h-64 rounded-t-xl bg-surface-container overflow-hidden relative">
+<img alt="Combo Box 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High-contrast top-down view of a vibrant fried chicken combo box overflowing with crispy golden chicken pieces, seasoned fries, and a fresh side salad, resting on a textured dark background with dramatic warm street food lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXy1BRrjyfE9RAcrl4tkm4JY6wLxNe28pnBFksv0rjXGECOwMiUBpRpk54NmrDJtkIyF-xX9nuN6Llq45xcGQ96EogYMcONEPzsn3PaqrtWFaokU-Y_3mchFbSSwshvL4lsxyn5s967hcGT1Fp-hPCjqFCL_uyG7tctnFr8ph1_iT-mQxet4Tf4aehYuv45J1k43MkSL6ThMA_ITzW48HnFTyeak0vpFok1DP5V0iTnDnt33b8wTiHZJfZQoeBKwTYhDEH38S0miWY"/>
+<div class="absolute top-4 right-4 bg-tertiary-container text-on-tertiary-container px-3 py-1 rounded-sm font-label text-xs uppercase font-bold">
+                            Popular
+                        </div>
+</div>
+<div class="p-6 relative">
+<h3 class="font-headline text-xl font-bold text-on-surface mb-2">Combo Đỉnh Cao</h3>
+<p class="font-body text-sm text-on-surface-variant mb-4">Crispy Gà Original, golden fries, and a refreshing Asian slaw salad in one convenient box.</p>
+<!-- Options -->
+<div class="mb-6">
+<label class="font-label text-xs uppercase font-bold text-on-surface-variant block mb-2">Choose Sauce</label>
+<div class="flex gap-2">
+<button class="px-3 py-1 rounded-sm border border-outline-variant/30 text-xs font-body text-on-surface hover:bg-primary-container hover:text-on-primary-container transition-colors">Sốt Kem</button>
+<button class="px-3 py-1 rounded-sm border border-outline-variant/30 text-xs font-body text-on-surface hover:bg-primary-container hover:text-on-primary-container transition-colors">Sốt Cay</button>
+</div>
+</div>
+<div class="flex justify-between items-end mt-auto">
+<span class="font-headline text-2xl font-black text-primary">125.000đ</span>
+<button class="bg-gradient-editorial text-on-primary w-12 h-12 rounded-full flex items-center justify-center shadow-[0_20px_40px_rgba(175,39,0,0.08)] hover:scale-105 active:scale-95 transition-all">
+<span class="material-symbols-outlined filled">add</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Card 2 -->
+<article class="bg-surface-container-low rounded-xl overflow-visible relative group">
+<div class="h-64 rounded-t-xl bg-surface-container overflow-hidden relative">
+<img alt="Combo Box 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Dynamic close-up shot of crispy fried chicken smothered in a rich, glossy sauce, served with thick-cut fries and a side of fresh greens, warm overhead lighting highlighting the textures." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIlqFuHtdjPEZKtF3_SZlTe7Xd5Jh47amc2s6M_QW17lswTeyW4xsYSWJE8H3jtzlpj5Dqu1EooQhUjmYsROm9kql4D1_QA_m9tf4XkYCclYzWYhMV0AV10eCvy5Ib9oVQj2ej5dda5RvfOI2nvXUbG5BqMTcFbQL3wdMbfnS70-IlRUItmwymmbk3DIeA1wFj31_VT-FVW2GUpbKkNuVAuxkSo2PVzM-hc5MMFF0JMvcHUQ_rKT04QfawddOnT2VocoxnLnqZmGNA"/>
+</div>
+<div class="p-6 relative">
+<h3 class="font-headline text-xl font-bold text-on-surface mb-2">Combo Năng Lượng</h3>
+<p class="font-body text-sm text-on-surface-variant mb-4">Gà Fusion pieces glazed in your choice of sauce, alongside seasoned wedges and fresh salad.</p>
+<div class="mb-6">
+<label class="font-label text-xs uppercase font-bold text-on-surface-variant block mb-2">Choose Sauce</label>
+<div class="flex gap-2">
+<button class="px-3 py-1 rounded-sm border border-outline-variant/30 text-xs font-body text-on-surface hover:bg-primary-container hover:text-on-primary-container transition-colors">Pesto</button>
+<button class="px-3 py-1 rounded-sm border border-outline-variant/30 text-xs font-body text-on-surface hover:bg-primary-container hover:text-on-primary-container transition-colors">Trứng Muối</button>
+</div>
+</div>
+<div class="flex justify-between items-end mt-auto">
+<span class="font-headline text-2xl font-black text-primary">145.000đ</span>
+<button class="bg-gradient-editorial text-on-primary w-12 h-12 rounded-full flex items-center justify-center shadow-[0_20px_40px_rgba(175,39,0,0.08)] hover:scale-105 active:scale-95 transition-all">
+<span class="material-symbols-outlined filled">add</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+</div>
+<!-- Original Section -->
+<div class="mb-20">
+<h2 class="font-headline text-2xl font-bold text-on-surface mb-8 border-l-4 border-secondary pl-4">Gà Original</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Card 3 -->
+<article class="bg-surface-container-low rounded-xl overflow-hidden flex flex-col">
+<div class="h-48 bg-surface-container relative">
+<img alt="Gà Original 1" class="w-full h-full object-cover" data-alt="Macro photography of ultra-crispy, golden-brown fried chicken wings stacked on a rustic wooden board, flecks of seasoning visible, shot with dramatic directional light against a dark background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0aF8UWDxLFneCxIhhxlHE69EXToO5dNlA958Yc1hbpFha_NXoJA0xWpugU0nlZaJFXFm5Ufr0hGc4q3N1miibzNgsKAlNy8xLJ6MgPsTbVX-accZMENSmL17JYHKpGvJFzmpp1LQPtXd2UjBBMzSnlrf1ywWH51wW6VvafKmRyHc8NJbjaHXeJvk8mChSBm_sg6J2R05vzs6goeoEhE_4zzKhFcSYNX2iXqnc-OpdRL_beDrwWgaLuWnWvXVaoyQxyhSVrPMVbz6v"/>
+</div>
+<div class="p-5 flex flex-col flex-grow">
+<h3 class="font-headline text-lg font-bold text-on-surface mb-1">Cánh Gà Giòn rụm</h3>
+<p class="font-body text-xs text-on-surface-variant mb-4 flex-grow">3 pieces of traditional crispy wings.</p>
+<div class="flex justify-between items-center">
+<span class="font-headline text-lg font-black text-on-surface">65.000đ</span>
+<button class="bg-secondary-container text-on-secondary-container px-4 py-2 rounded-full font-body text-sm font-bold hover:bg-secondary-fixed-dim transition-colors">Add</button>
+</div>
+</div>
+</article>
+<!-- Card 4 -->
+<article class="bg-surface-container-low rounded-xl overflow-hidden flex flex-col">
+<div class="h-48 bg-surface-container relative">
+<img alt="Gà Original 2" class="w-full h-full object-cover" data-alt="Close-up of juicy, boneless fried chicken tenders with a heavily textured, craggy golden crust, presented in a paper-lined street food basket, vibrant and mouth-watering." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3CsRzRZ89TsGB9kty5H4RPDUQguIEhx2FaMBUD9p0Ult0F10ciGID1AYjgMm1UW8gA0dCgZNz6mxFapaWUX30BL2Ks-bgpqZxGF72Fh1aZESGYBzXKKgehq9OO3eo3OdSZsjs_ubIvwSgZosHTGG80qSS6TvHXBwZLRRO-o0H1w9sq6H-mBE8TtiI1LV2hFrA7Nocs7zsrxZxVe31miY3xiC3JIK9QWsPCFjySKNj1NSMXO8HHDtLcKpiOA0Zve_W7_5WyJul9QuZ"/>
+<div class="absolute top-3 right-3 bg-primary-container text-on-primary-container px-2 py-1 rounded-sm font-label text-[10px] uppercase font-bold">
+                            Spicy
+                        </div>
+</div>
+<div class="p-5 flex flex-col flex-grow">
+<h3 class="font-headline text-lg font-bold text-on-surface mb-1">Gà Không Xương</h3>
+<p class="font-body text-xs text-on-surface-variant mb-4 flex-grow">Tender boneless bites with our secret spice blend.</p>
+<div class="flex justify-between items-center">
+<span class="font-headline text-lg font-black text-on-surface">85.000đ</span>
+<button class="bg-secondary-container text-on-secondary-container px-4 py-2 rounded-full font-body text-sm font-bold hover:bg-secondary-fixed-dim transition-colors">Add</button>
+</div>
+</div>
+</article>
+</div>
+</div>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 w-full rounded-t-3xl z-50 bg-surface-container-lowest/90 backdrop-blur-lg shadow-[0_-10px_30px_rgba(0,0,0,0.05)]">
+<div class="flex justify-around items-center px-4 pb-6 pt-3">
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container rounded-xl px-4 py-2 transition-all duration-200" href="#">
+<span class="material-symbols-outlined mb-1">home</span>
+<span class="font-body text-[10px] uppercase font-bold tracking-widest">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-primary-container/30 text-primary-dim rounded-2xl px-5 py-2 transition-all duration-200" href="#">
+<span class="material-symbols-outlined filled mb-1">restaurant_menu</span>
+<span class="font-body text-[10px] uppercase font-bold tracking-widest">Menu</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-container rounded-xl px-4 py-2 transition-all duration-200" href="#">
+<span class="material-symbols-outlined mb-1">receipt_long</span>
+<span class="font-body text-[10px] uppercase font-bold tracking-widest">Orders</span>
+</a>
+</div>
+</nav>
+<!-- Footer -->
+<footer class="w-full py-12 px-8 mt-20 bg-surface-container-low transition flat">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-7xl mx-auto">
+<div>
+<div class="font-headline font-black text-xl text-on-surface mb-2">ChipChipChicken</div>
+<p class="font-body text-sm text-on-surface-variant">© 2024 ChipChipChicken. Kinetic Street Gourmet.</p>
+</div>
+<div class="flex flex-wrap gap-6 md:justify-end">
+<a class="font-body text-sm text-on-surface-variant hover:text-primary underline decoration-2 underline-offset-4 transition-opacity duration-200" href="#">Privacy Policy</a>
+<a class="font-body text-sm text-on-surface-variant hover:text-primary underline decoration-2 underline-offset-4 transition-opacity duration-200" href="#">Terms of Service</a>
+<a class="font-body text-sm text-on-surface-variant hover:text-primary underline decoration-2 underline-offset-4 transition-opacity duration-200" href="#">Locations</a>
+<a class="font-body text-sm text-on-surface-variant hover:text-primary underline decoration-2 underline-offset-4 transition-opacity duration-200" href="#">Contact</a>
+</div>
+</div>
+</footer>
+</body></html>

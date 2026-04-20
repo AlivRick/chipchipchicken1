@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gà Fusion sốt Pesto - ChipChipChicken</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800;900&amp;family=Work+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-container": "#5c4400",
+                        "surface-container": "#ebe7ed",
+                        "on-primary-container": "#490b00",
+                        "primary-dim": "#9a2100",
+                        "secondary-fixed": "#ffca4d",
+                        "secondary-container": "#ffca4d",
+                        "inverse-primary": "#ff562c",
+                        "primary": "#af2700",
+                        "secondary-dim": "#664b00",
+                        "surface-dim": "#d7d3db",
+                        "secondary": "#755700",
+                        "surface-tint": "#af2700",
+                        "tertiary-fixed": "#9df197",
+                        "outline-variant": "#afacb1",
+                        "primary-fixed": "#ff7856",
+                        "error": "#b41340",
+                        "tertiary-container": "#9df197",
+                        "surface-container-highest": "#e0dbe3",
+                        "on-secondary-fixed": "#443100",
+                        "inverse-on-surface": "#9f9ca1",
+                        "error-dim": "#a70138",
+                        "on-error-container": "#510017",
+                        "inverse-surface": "#0e0e11",
+                        "tertiary": "#176a21",
+                        "on-tertiary-container": "#005c15",
+                        "on-primary-fixed-variant": "#5a0f00",
+                        "on-secondary-fixed-variant": "#674c00",
+                        "on-error": "#ffefef",
+                        "on-secondary": "#fff1db",
+                        "on-primary": "#ffefec",
+                        "tertiary-fixed-dim": "#90e28a",
+                        "on-surface": "#2f2e32",
+                        "on-primary-fixed": "#000000",
+                        "surface-bright": "#faf5fb",
+                        "background": "#faf5fb",
+                        "secondary-fixed-dim": "#f7ba00",
+                        "surface-container-low": "#f4eff5",
+                        "tertiary-dim": "#025d16",
+                        "on-background": "#2f2e32",
+                        "surface-variant": "#e0dbe3",
+                        "on-tertiary-fixed-variant": "#12661e",
+                        "surface-container-high": "#e5e1e8",
+                        "on-surface-variant": "#5d5b5f",
+                        "error-container": "#f74b6d",
+                        "outline": "#78767b",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary": "#d1ffc8",
+                        "primary-container": "#ff7856",
+                        "surface": "#faf5fb",
+                        "primary-fixed-dim": "#ff5c34",
+                        "on-tertiary-fixed": "#00460e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {},
+                    "fontFamily": {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Work Sans"],
+                        "label": ["Work Sans"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Work Sans', sans-serif; }
+        h1, h2, h3, h4, h5, h6, .font-headline { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-background antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-zinc-950/80 backdrop-blur-xl tonal transition via surface-container-low shadow-[0_20px_40px_rgba(175,39,0,0.08)]">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-black text-zinc-900 dark:text-zinc-50 tracking-tighter italic">
+<a class="hover:opacity-80 transition-opacity" href="#">ChipChipChicken</a>
+</div>
+<div class="flex items-center gap-6">
+<!-- Navigation - Desktop Only -->
+<nav class="hidden md:flex gap-6 items-center font-plus-jakarta-sans font-bold tracking-tight">
+<a class="text-zinc-600 dark:text-zinc-400 font-medium hover:text-orange-500 transition-colors duration-300" href="#">Menu</a>
+<a class="text-zinc-600 dark:text-zinc-400 font-medium hover:text-orange-500 transition-colors duration-300" href="#">Locations</a>
+</nav>
+<div class="flex items-center gap-4 text-orange-600 dark:text-orange-500">
+<button class="scale-95 active:scale-90 transition-transform hover:text-orange-500 transition-colors duration-300 p-2 rounded-full hover:bg-surface-container-high/50">
+<span class="material-symbols-outlined">search</span>
+</button>
+<button class="scale-95 active:scale-90 transition-transform hover:text-orange-500 transition-colors duration-300 p-2 rounded-full hover:bg-surface-container-high/50 relative">
+<span class="material-symbols-outlined">shopping_cart</span>
+<span class="absolute top-1 right-1 w-2 h-2 bg-primary rounded-full"></span>
+</button>
+<button class="scale-95 active:scale-90 transition-transform hover:text-orange-500 transition-colors duration-300 p-2 rounded-full hover:bg-surface-container-high/50">
+<span class="material-symbols-outlined">account_circle</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main class="pt-32 pb-24 px-6 max-w-7xl mx-auto">
+<!-- Product Hero Section -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-24">
+<!-- Left: Hero Image Gallery -->
+<div class="relative group">
+<div class="absolute -inset-4 bg-primary/5 rounded-[2rem] transform -rotate-2 z-0"></div>
+<div class="absolute -inset-4 bg-secondary/5 rounded-[2rem] transform rotate-2 z-0"></div>
+<div class="relative z-10 bg-surface-container-lowest rounded-[2rem] overflow-hidden shadow-[0_20px_40px_rgba(175,39,0,0.08)] aspect-square lg:aspect-[4/5]">
+<img alt="Gà Fusion sốt Pesto" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="crispy fried chicken drumsticks dripping with vibrant green pesto sauce, served on a rustic wooden board, dramatic top-down food photography lighting, rich textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlfHvQpn63CV8ROJewSgd9EQQJ2RPeMPIg5QFVkbzhxn7VW21U03jdvxBtCPO1Zoq1iOlXVtyYRAiNIF3KHMtlHxAUW9hj8evNT4mcycB4yFi11zngr0sztOMjiOpRSw9PsgH3DnvAuBxjyqvg0AunZkGN8YVIUPUQWEEbo5eQ5EUks8zC45zZ8nBMO_V6IZMS2PgMWAC0W5uwScHk8SCBdf0cjfL-RlCTE564ORTG8qDnKE4CowqYzpbnMQ99SZ0NGOczInAKzboq"/>
+<div class="absolute top-6 left-6 flex flex-col gap-3">
+<span class="bg-primary-container text-on-primary-container px-4 py-2 rounded-full font-headline font-bold text-sm tracking-wide uppercase shadow-lg inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">local_fire_department</span> Best Seller
+                        </span>
+<span class="bg-tertiary-container text-on-tertiary-container px-4 py-2 rounded-full font-headline font-bold text-sm tracking-wide uppercase shadow-lg w-fit">
+                            New Flavor
+                        </span>
+</div>
+</div>
+<!-- Thumbnails (Decorative) -->
+<div class="flex gap-4 mt-6 relative z-10">
+<button class="w-20 h-20 rounded-xl overflow-hidden border-2 border-primary">
+<img class="w-full h-full object-cover" data-alt="close up of fried chicken with pesto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZZnCOUvX276aN-HBCU59-5AQiqDAfZPqrrGM9Sjb8GUEkSP1AltQRUFiYJeJIoddHPSeybPyCRWjYL5na22SU4XvMyPd0oiUqTRCghlsIK5q9WpxDU6WpO1W0YBhaZV7CJMdZg-m7_UWfeHhpwq7DsVNoPNNqn-Cmpd2exzjDm_mlRTYW291m11Wu9o2KK7j84wfdGKcNP2V5TN-DyEqFdD6QkiADYpSQ4oqW_ANGU7GZdwepIOtN5LCeN_nP_hjNur4yvJZGQSm1"/>
+</button>
+<button class="w-20 h-20 rounded-xl overflow-hidden opacity-60 hover:opacity-100 transition-opacity bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="bowl of fresh basil pesto sauce macro shot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmEDn1vSRpG6m_dsijQRxGmbiGGFrEOyrprqL90DtVlD0HZ8bM9NUwABf0OTS0eLG9MorYoG0eAVkQTk16abyM1m6WJkuVdjDthvXAfVoqkNEemGvNJzMSpScrxjlA7F_UjbnN_UIhaA5jMOyiZhCWc0jY3HKlgMOQqXOx7MxF5STNjhQrUdiPpZHGgjLIfKSq9JtZFKmfJKNcrvIFFulWuikv9LltlwVNqcXpfbD127oLyR0fNNSIkeTCIp2W2Pl-eBPzijD7hstS"/>
+</button>
+</div>
+</div>
+<!-- Right: Product Details & Configuration -->
+<div class="flex flex-col relative z-10">
+<div class="mb-8">
+<h1 class="font-headline text-[3.5rem] leading-[1.1] font-black text-on-surface tracking-[-0.02em] mb-4">Gà Fusion<br/><span class="text-transparent bg-clip-text bg-gradient-to-br from-primary to-primary-container">sốt Pesto</span></h1>
+<p class="font-headline text-3xl font-extrabold text-primary mb-6">85.000đ</p>
+<p class="font-body text-lg text-on-surface-variant leading-relaxed">
+                        Sự kết hợp táo bạo giữa gà rán giòn rụm phong cách Á và sốt Pesto húng quế Ý thơm lừng, béo ngậy. Một trải nghiệm bùng nổ hương vị trong từng miếng cắn.
+                    </p>
+</div>
+<!-- Options -->
+<div class="space-y-8 bg-surface-container-low p-8 rounded-[2rem] mb-8">
+<!-- Chicken Type -->
+<div>
+<h3 class="font-headline text-xl font-bold mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">restaurant</span>
+                            Chọn loại gà
+                        </h3>
+<div class="grid grid-cols-3 gap-3">
+<label class="cursor-pointer relative">
+<input checked="" class="peer sr-only" name="chicken_type" type="radio" value="canh"/>
+<div class="p-4 rounded-xl text-center bg-surface-container-lowest border-2 border-transparent peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+<span class="font-body font-semibold block text-on-surface">Cánh</span>
+</div>
+</label>
+<label class="cursor-pointer relative">
+<input class="peer sr-only" name="chicken_type" type="radio" value="dui"/>
+<div class="p-4 rounded-xl text-center bg-surface-container-lowest border-2 border-transparent peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+<span class="font-body font-semibold block text-on-surface">Đùi</span>
+</div>
+</label>
+<label class="cursor-pointer relative">
+<input class="peer sr-only" name="chicken_type" type="radio" value="khong_xuong"/>
+<div class="p-4 rounded-xl text-center bg-surface-container-lowest border-2 border-transparent peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+<span class="font-body font-semibold block text-on-surface">Không xương</span>
+</div>
+</label>
+</div>
+</div>
+<!-- Add-ons -->
+<div>
+<h3 class="font-headline text-xl font-bold mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">add_circle</span>
+                            Thêm món kèm
+                        </h3>
+<div class="space-y-3">
+<label class="flex items-center justify-between p-4 bg-surface-container-lowest rounded-xl cursor-pointer hover:bg-surface-variant/30 transition-colors group">
+<div class="flex items-center gap-3">
+<input class="w-5 h-5 rounded border-outline-variant text-primary focus:ring-primary/50 bg-surface-variant/50" type="checkbox"/>
+<span class="font-body font-medium text-on-surface">Khoai tây mặt cười</span>
+</div>
+<span class="font-headline font-bold text-secondary">+15.000đ</span>
+</label>
+<label class="flex items-center justify-between p-4 bg-surface-container-lowest rounded-xl cursor-pointer hover:bg-surface-variant/30 transition-colors group">
+<div class="flex items-center gap-3">
+<input class="w-5 h-5 rounded border-outline-variant text-primary focus:ring-primary/50 bg-surface-variant/50" type="checkbox"/>
+<span class="font-body font-medium text-on-surface">Salad thêm</span>
+</div>
+<span class="font-headline font-bold text-secondary">+10.000đ</span>
+</label>
+</div>
+</div>
+</div>
+<!-- Info Card -->
+<div class="bg-secondary-container/20 p-6 rounded-2xl flex items-start gap-4 mb-8">
+<span class="material-symbols-outlined text-secondary-dim text-3xl mt-1">info</span>
+<div>
+<h4 class="font-headline font-bold text-on-secondary-container mb-1">Bữa ăn hoàn chỉnh</h4>
+<p class="font-body text-sm text-on-surface-variant">Phần ăn được phục vụ trong hộp 'All-in-one' tiện lợi, bao gồm gà, sốt, đồ chua ăn kèm và một ly nước ngọt cỡ vừa. Sẵn sàng thưởng thức mọi lúc mọi nơi!</p>
+</div>
+</div>
+<!-- Actions -->
+<div class="flex items-center gap-4 bg-surface-container-lowest p-4 rounded-[2rem] shadow-[0_20px_40px_rgba(175,39,0,0.05)] sticky bottom-24 md:static z-20">
+<div class="flex items-center bg-surface-container-low rounded-xl px-2 h-14">
+<button class="w-10 h-10 flex items-center justify-center rounded-lg hover:bg-surface-variant transition-colors text-on-surface">
+<span class="material-symbols-outlined text-lg">remove</span>
+</button>
+<span class="font-headline font-bold text-lg w-8 text-center">1</span>
+<button class="w-10 h-10 flex items-center justify-center rounded-lg hover:bg-surface-variant transition-colors text-on-surface">
+<span class="material-symbols-outlined text-lg">add</span>
+</button>
+</div>
+<button class="flex-1 h-14 bg-gradient-to-br from-primary to-primary-container text-on-primary rounded-full font-headline font-bold text-lg flex items-center justify-center gap-2 hover:shadow-[0_10px_20px_rgba(175,39,0,0.2)] transition-shadow duration-300">
+<span class="material-symbols-outlined">shopping_cart</span>
+                        Thêm vào giỏ hàng
+                    </button>
+</div>
+</div>
+</div>
+<!-- Related Products (Bento Style) -->
+<section class="mt-32">
+<h2 class="font-headline text-3xl font-black mb-10 border-l-8 border-primary pl-4 tracking-tight">Món bạn có thể thích</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="group relative bg-surface-container-low rounded-[2rem] p-6 hover:bg-surface-container transition-colors duration-300 flex flex-col items-start mt-12">
+<div class="w-48 h-48 rounded-full overflow-hidden absolute -top-12 right-6 shadow-[0_20px_40px_rgba(175,39,0,0.15)] border-4 border-surface-container-lowest group-hover:scale-110 transition-transform duration-500">
+<img alt="Gà Sốt Trứng Muối" class="w-full h-full object-cover" data-alt="crispy fried chicken coated in golden salted egg yolk sauce, top view, studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqwCZm32WDJUJnYGrXnesgx4vYpmvCv0OS7QTGMSWnO5fvjf7wTJOVeFD2x49OeCTGZHyRu1j2S_Z5JjYZuAiCfV6QBracfDm3Cwy66sMAdkUywrmttgWwfodKVJ1UdJ1KyA-sfLcsPRty3K01LcM-VAvdKATTRtALHgR0I_C_FRra5O6hAQOnjo7Zp0gLOmqX3hN3MuPyudHzKtlJp-b_SwySRkOCqz1t9uCJCjbcwbK92V1UhBnLuf7E18muZAp14WCgWCmlkvxI"/>
+</div>
+<div class="mt-32 w-full">
+<span class="bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-3 inline-block">Signature</span>
+<h3 class="font-headline text-2xl font-bold mb-2 text-on-surface">Gà Sốt Trứng Muối</h3>
+<p class="font-body text-on-surface-variant text-sm mb-6 line-clamp-2">Sốt trứng muối mặn ngọt đậm đà phủ đều lớp vỏ giòn tan.</p>
+<div class="flex items-center justify-between w-full mt-auto">
+<span class="font-headline font-extrabold text-xl text-primary">89.000đ</span>
+<button class="w-12 h-12 rounded-full bg-surface-container-lowest flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group relative bg-surface-container-low rounded-[2rem] p-6 hover:bg-surface-container transition-colors duration-300 flex flex-col items-start mt-12">
+<div class="w-48 h-48 rounded-full overflow-hidden absolute -top-12 right-6 shadow-[0_20px_40px_rgba(175,39,0,0.15)] border-4 border-surface-container-lowest group-hover:scale-110 transition-transform duration-500">
+<img alt="Khoai Tây Chiên" class="w-full h-full object-cover" data-alt="golden crispy french fries in a red paper basket, scattered sea salt, macro shot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhLSditevH1M-zx4tiTylA46TtylNJrj2oSIbsGaNEkwwPb7Q-BdUMMLGSIetqup-BtcfeH8EhxaN-7g7BJFPXmLVlNko2feHCnRlEvzH3NW0lBLZFen5RsrR6tfG1iQtDoYy7BZN2IFdN2gcRbRA5ej4ZEVyK-Mgr8AWAYJjWi2dWDQw8Gt2hKd5UiqZtgfU54Llkku7aqhwkwvKFSxOLgojRbyKhxVSDeLK2Jb_gqGDKi2RfpXg0hjJNft9AXlgOcjI5v53wN34W"/>
+</div>
+<div class="mt-32 w-full">
+<span class="bg-surface-variant text-on-surface-variant text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-3 inline-block">Side Dish</span>
+<h3 class="font-headline text-2xl font-bold mb-2 text-on-surface">Khoai Tây Lắc Vị</h3>
+<p class="font-body text-on-surface-variant text-sm mb-6 line-clamp-2">Khoai tây sợi vàng ươm, lắc phô mai hoặc xí muội siêu cuốn.</p>
+<div class="flex items-center justify-between w-full mt-auto">
+<span class="font-headline font-extrabold text-xl text-primary">35.000đ</span>
+<button class="w-12 h-12 rounded-full bg-surface-container-lowest flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 w-full rounded-t-3xl z-50 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-lg shadow-[0_-10px_30px_rgba(0,0,0,0.05)]">
+<div class="flex justify-around items-center px-4 pb-6 pt-3">
+<a class="flex flex-col items-center justify-center text-zinc-500 dark:text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800 tap-highlight-none transition-all duration-200 p-2 rounded-xl" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1">home</span>
+<span class="font-work-sans text-[10px] uppercase font-bold tracking-widest">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300 rounded-2xl px-5 py-2 tap-highlight-none transition-all duration-200" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1" style="font-variation-settings: 'FILL' 1;">restaurant_menu</span>
+<span class="font-work-sans text-[10px] uppercase font-bold tracking-widest">Menu</span>
+</a>
+<a class="flex flex-col items-center justify-center text-zinc-500 dark:text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800 tap-highlight-none transition-all duration-200 p-2 rounded-xl" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1">receipt_long</span>
+<span class="font-work-sans text-[10px] uppercase font-bold tracking-widest">Orders</span>
+</a>
+<a class="flex flex-col items-center justify-center text-zinc-500 dark:text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800 tap-highlight-none transition-all duration-200 p-2 rounded-xl" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1">shopping_bag</span>
+<span class="font-work-sans text-[10px] uppercase font-bold tracking-widest">Cart</span>
+</a>
+</div>
+</nav>
+<!-- Footer -->
+<footer class="w-full py-12 px-8 mt-20 bg-zinc-100 dark:bg-zinc-950 bg-surface-container-low transition pb-32 md:pb-12">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-7xl mx-auto">
+<div>
+<h2 class="font-plus-jakarta-sans font-black text-xl text-zinc-900 dark:text-zinc-50 mb-2">ChipChipChicken</h2>
+<p class="font-work-sans text-sm text-zinc-600 dark:text-zinc-400">© 2024 ChipChipChicken. Kinetic Street Gourmet.</p>
+</div>
+<div class="flex flex-wrap gap-6 md:justify-end">
+<a class="text-zinc-500 hover:text-orange-500 underline decoration-2 underline-offset-4 transition-opacity duration-200 font-work-sans text-sm" href="#">Privacy Policy</a>
+<a class="text-zinc-500 hover:text-orange-500 underline decoration-2 underline-offset-4 transition-opacity duration-200 font-work-sans text-sm" href="#">Terms of Service</a>
+<a class="text-zinc-500 hover:text-orange-500 underline decoration-2 underline-offset-4 transition-opacity duration-200 font-work-sans text-sm" href="#">Locations</a>
+<a class="text-zinc-500 hover:text-orange-500 underline decoration-2 underline-offset-4 transition-opacity duration-200 font-work-sans text-sm" href="#">Contact</a>
+</div>
+</div>
+</footer>
+</body></html>
