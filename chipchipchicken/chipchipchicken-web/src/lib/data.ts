@@ -80,7 +80,7 @@ export const menuItems: MenuItem[] = [
       "3 cánh gà chiên giòn truyền thống, da vàng ruộm giòn tan, thịt mọng nước đậm đà.",
     price: 65000,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuC0aF8UWDxLFneCxIhhxlHE69EXToO5dNlA958Yc1hbpFha_NXoJA0xWpugU0nlZaJFXFm5Ufr0hGc4q3N1miibzNgsKAlNy8xLJ6MgPsTbVX-accZMENSmL17JYHKpGvJFzmpp1LQPtXd2UjBBMzSnlrf1ywWH51wW6VvafKmRyHc8NJbjaHXeJvk8mChSBm_sg6J2R05vzs6goeoEhE_4zzKhFcSYNX2iXqnc-OpdRL_beDrwWgaLuWnWvXVaoyQxyhSVrPMVbz6v",
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&h=500&fit=crop",
     category: "original",
     tag: "Classic",
     tagType: "popular",
@@ -93,7 +93,7 @@ export const menuItems: MenuItem[] = [
       "2 đùi gà to chiên giòn, vỏ ngoài cực giòn, thịt bên trong thấm vị tới xương.",
     price: 79000,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDY9T-OuSXCpw6G_T8xQlZPdN0X785JRUN00tOkzHzR-6Xbh58jwqiA9Wq5A1tzO0ikndTjU4xSN5VdoKvDWRFCQ_1RyXPpfeq3ZepWjZqHJ6cVkFkFZD43Vf2c_4GtGKw7Dw2xAa0rGDH0a6won1_as5q2WCgGslE6qZ0Meb65QON_YY4hH6ypWQVWisR6jTrSHclndb3zXLlhYJJFm2bfdSQildnqazUt6qL-p7OvB1yyRbsNLeCqbJKD5_4ut6mplMzXzRzjRI0G",
+      "https://images.unsplash.com/photo-1615328713353-0ed2b1a91cd2?w=500&h=500&fit=crop",
     category: "original",
     sauces: ["Sốt Kem", "Sốt Cay"],
   },
@@ -104,7 +104,7 @@ export const menuItems: MenuItem[] = [
       "Miếng gà phi lê tẩm bột chiên giòn, gia vị bí truyền cay nồng — ăn là ghiền.",
     price: 85000,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuD3CsRzRZ89TsGB9kty5H4RPDUQguIEhx2FaMBUD9p0Ult0F10ciGID1AYjgMm1UW8gA0dCgZNz6mxFapaWUX30BL2Ks-bgpqZxGF72Fh1aZESGYBzXKKgehq9OO3eo3OdSZsjs_ubIvwSgZosHTGG80qSS6TvHXBwZLRRO-o0H1w9sq6H-mBE8TtiI1LV2hFrA7Nocs7zsrxZxVe31miY3xiC3JIK9QWsPCFjySKNj1NSMXO8HHDtLcKpiOA0Zve_W7_5WyJul9QuZ",
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&h=500&fit=crop",
     category: "original",
     tag: "Spicy",
     tagType: "spicy",
@@ -117,7 +117,7 @@ export const menuItems: MenuItem[] = [
       "1 con gà chiên nguyên con giòn rụm, phần ăn dành cho 3-4 người. Da giòn, thịt mềm, thấm đều gia vị.",
     price: 259000,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuA7nDsoH9_f48ltZGzZu0HKLnMfKPNFjEzFRHJElVzmfPiCTQofjPm5x6h1dnnnu78UbfkI0McC3MDNdXfrVpCAGR0vXe4Ucis3CEKj6XxgdKd8wI9oTlCIUAw5A4tT0anEmWdNo-DSiWnz5OLcbWx5izIqra-4ufmOSD7h1-xlIyTPBn_sdVCvXU2S8uulb4jGJ8HdQxPG6Add_5Iy7XM1rzdmg_3Ayp8msvzYbbNYdKyJgrNH9nLidwjiUxXcJqE64HCMtfqtUUWU",
+      "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=500&h=500&fit=crop",
     category: "original",
     tag: "Cho nhóm",
     tagType: "popular",
@@ -132,7 +132,7 @@ export const menuItems: MenuItem[] = [
       "Gà Original giòn rụm phủ sốt Pesto húng quế Ý thơm lừng, béo ngậy. Vị Á-Âu bùng nổ trong từng miếng cắn.",
     price: 85000,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBlfHvQpn63CV8ROJewSgd9EQQJ2RPeMPIg5QFVkbzhxn7VW21U03jdvxBtCPO1Zoq1iOlXVtyYRAiNIF3KHMtlHxAUW9hj8evNT4mcycB4yFi11zngr0sztOMjiOpRSw9PsgH3DnvAuBxjyqvg0AunZkGN8YVIUPUQWEEbo5eQ5EUks8zC45zZ8nBMO_V6IZMS2PgMWAC0W5uwScHk8SCBdf0cjfL-RlCTE564ORTG8qDnKE4CowqYzpbnMQ99SZ0NGOczInAKzboq",
+      "https://images.unsplash.com/photo-1606758227628-247fcee13370?w=500&h=500&fit=crop",
     category: "fusion",
     tag: "Best Seller",
     tagType: "fusion",
@@ -149,7 +149,7 @@ export const menuItems: MenuItem[] = [
       "Lớp sốt trứng muối mặn ngọt béo ngậy áo đều từng miếng gà giòn. Hương vị Signature không thể bỏ lỡ.",
     price: 89000,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDB5bxs6vNOPa8QAHyaiJ0L9zM9nZ_5UYZ2TA7Q-9dOA5WhEREem0wzDLd9qyGcBvWmL-Ew1Br1Bi2TRjwYz4HcZyWAU1sHatDYU_r81buVje9L5vXLIc0lJZMPPeJBMU3W9VPAZU8RFg_4Cs2Rc18bFoc2vAR3Szn2gOQKlWLKTI7PIYEePnpuT3K86-YnJiwTQBthoIMWvrlPat-ZQRHTh0MJEquXMsu4iO-SzWgPFyDrw4SKtYq56Bdgeuh7ngYjlI7uFPRD-1rL",
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&h=500&fit=crop",
     category: "fusion",
     tag: "Signature",
     tagType: "signature",
@@ -166,7 +166,7 @@ export const menuItems: MenuItem[] = [
       "Gà giòn tưới sốt bơ tỏi thơm nức kết hợp rau mùi tây Parsley tươi xanh. Vị thanh nhẹ mà đậm đà.",
     price: 85000,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDqwCZm32WDJUJnYGrXnesgx4vYpmvCv0OS7QTGMSWnO5fvjf7wTJOVeFD2x49OeCTGZHyRu1j2S_Z5JjYZuAiCfV6QBracfDm3Cwy66sMAdkUywrmttgWwfodKVJ1UdJ1KyA-sfLcsPRty3K01LcM-VAvdKATTRtALHgR0I_C_FRra5O6hAQOnjo7Zp0gLOmqX3hN3MuPyudHzKtlJp-b_SwySRkOCqz1t9uCJCjbcwbK92V1UhBnLuf7E18muZAp14WCgWCmlkvxI",
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&h=500&fit=crop",
     category: "fusion",
     tag: "New",
     tagType: "new",
@@ -183,7 +183,7 @@ export const menuItems: MenuItem[] = [
       "Gà giòn phủ sốt mật ong cay ngọt — cay nồng trước, ngọt dịu sau. Gây nghiện từ miếng đầu tiên.",
     price: 89000,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCIlqFuHtdjPEZKtF3_SZlTe7Xd5Jh47amc2s6M_QW17lswTeyW4xsYSWJE8H3jtzlpj5Dqu1EooQhUjmYsROm9kql4D1_QA_m9tf4XkYCclYzWYhMV0AV10eCvy5Ib9oVQj2ej5dda5RvfOI2nvXUbG5BqMTcFbQL3wdMbfnS70-IlRUItmwymmbk3DIeA1wFj31_VT-FVW2GUpbKkNuVAuxkSo2PVzM-hc5MMFF0JMvcHUQ_rKT04QfawddOnT2VocoxnLnqZmGNA",
+      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&h=500&fit=crop",
     category: "fusion",
     tag: "Spicy",
     tagType: "spicy",
@@ -202,7 +202,7 @@ export const menuItems: MenuItem[] = [
       "Khoai tây cắt múi cau chiên giòn vàng, bên ngoài giòn tan bên trong mềm dẻo, rắc muối biển.",
     price: 35000,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAhLSditevH1M-zx4tiTylA46TtylNJrj2oSIbsGaNEkwwPb7Q-BdUMMLGSIetqup-BtcfeH8EhxaN-7g7BJFPXmLVlNko2feHCnRlEvzH3NW0lBLZFen5RsrR6tfG1iQtDoYy7BZN2IFdN2gcRbRA5ej4ZEVyK-Mgr8AWAYJjWi2dWDQw8Gt2hKd5UiqZtgfU54Llkku7aqhwkwvKFSxOLgojRbyKhxVSDeLK2Jb_gqGDKi2RfpXg0hjJNft9AXlgOcjI5v53wN34W",
+      "https://images.unsplash.com/photo-1599599650435-75ea97119e6c?w=500&h=500&fit=crop",
     category: "side",
     tag: "Side",
     tagType: "side",
@@ -214,7 +214,7 @@ export const menuItems: MenuItem[] = [
       "Khoai tây sợi mỏng giòn rụm kiểu Hàn, lắc phô mai hoặc xí muội siêu cuốn.",
     price: 30000,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAhLSditevH1M-zx4tiTylA46TtylNJrj2oSIbsGaNEkwwPb7Q-BdUMMLGSIetqup-BtcfeH8EhxaN-7g7BJFPXmLVlNko2feHCnRlEvzH3NW0lBLZFen5RsrR6tfG1iQtDoYy7BZN2IFdN2gcRbRA5ej4ZEVyK-Mgr8AWAYJjWi2dWDQw8Gt2hKd5UiqZtgfU54Llkku7aqhwkwvKFSxOLgojRbyKhxVSDeLK2Jb_gqGDKi2RfpXg0hjJNft9AXlgOcjI5v53wN34W",
+      "https://images.unsplash.com/photo-1585238341710-4abb3c8a95a6?w=500&h=500&fit=crop",
     category: "side",
   },
   {
@@ -224,7 +224,7 @@ export const menuItems: MenuItem[] = [
       "Khoai tây hình mặt cười chiên giòn vui mắt — món khoái khẩu của cả trẻ em lẫn người lớn.",
     price: 35000,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAhLSditevH1M-zx4tiTylA46TtylNJrj2oSIbsGaNEkwwPb7Q-BdUMMLGSIetqup-BtcfeH8EhxaN-7g7BJFPXmLVlNko2feHCnRlEvzH3NW0lBLZFen5RsrR6tfG1iQtDoYy7BZN2IFdN2gcRbRA5ej4ZEVyK-Mgr8AWAYJjWi2dWDQw8Gt2hKd5UiqZtgfU54Llkku7aqhwkwvKFSxOLgojRbyKhxVSDeLK2Jb_gqGDKi2RfpXg0hjJNft9AXlgOcjI5v53wN34W",
+      "https://images.unsplash.com/photo-1585238341710-4abb3c8a95a6?w=500&h=500&fit=crop",
     category: "side",
     tag: "Hot",
     tagType: "popular",
@@ -236,7 +236,7 @@ export const menuItems: MenuItem[] = [
       "Bắp cải trắng tím thái sợi trộn sốt mayo-chanh, giòn mát chống ngấy hoàn hảo.",
     price: 20000,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCEVf7eaaYXGKGAwm_dCZVJUtvyQDL0tn0IkItDAFqVd6oQRVyINVB8Qo9oPoDvj0wobV1I8mG7I50u3Xa-OfVp-e-L2TMkJvDgPEZz7P3DoayZundInyvpu0aLbL-J7lXtGTmAsTNyTTbHrwlf3PsWXrf7HprLI7RdU6t7sZnzqOOQuMlAsEXYQwHpxz8CTXrjJRfpk5lMc6ydo2uCMNsPJnEGY0AKsNd0IcDzvK6tY-DY_rhQs3F6OS0mNvO17fBOJyMm8Yjq3O38",
+      "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500&h=500&fit=crop",
     category: "side",
     tag: "Healthy",
     tagType: "new",
@@ -248,7 +248,7 @@ export const menuItems: MenuItem[] = [
       "Coca-Cola, Pepsi, Sprite, Fanta — size M đá lạnh sảng khoái.",
     price: 15000,
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCEVf7eaaYXGKGAwm_dCZVJUtvyQDL0tn0IkItDAFqVd6oQRVyINVB8Qo9oPoDvj0wobV1I8mG7I50u3Xa-OfVp-e-L2TMkJvDgPEZz7P3DoayZundInyvpu0aLbL-J7lXtGTmAsTNyTTbHrwlf3PsWXrf7HprLI7RdU6t7sZnzqOOQuMlAsEXYQwHpxz8CTXrjJRfpk5lMc6ydo2uCMNsPJnEGY0AKsNd0IcDzvK6tY-DY_rhQs3F6OS0mNvO17fBOJyMm8Yjq3O38",
+      "https://images.unsplash.com/photo-1554866585-cd4628902d4a?w=500&h=500&fit=crop",
     category: "side",
   },
 ];
