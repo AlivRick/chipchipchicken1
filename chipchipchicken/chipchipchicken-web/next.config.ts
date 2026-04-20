@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "images.unsplash.com",
+        hostname: "images.pexels.com",
       },
     ],
     unoptimized: process.env.NODE_ENV === "development",

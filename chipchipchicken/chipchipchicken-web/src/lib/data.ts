@@ -80,7 +80,7 @@ export const menuItems: MenuItem[] = [
       "3 cánh gà chiên giòn truyền thống, da vàng ruộm giòn tan, thịt mọng nước đậm đà.",
     price: 65000,
     image:
-      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/3497210/pexels-photo-3497210.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "original",
     tag: "Classic",
     tagType: "popular",
@@ -93,7 +93,7 @@ export const menuItems: MenuItem[] = [
       "2 đùi gà to chiên giòn, vỏ ngoài cực giòn, thịt bên trong thấm vị tới xương.",
     price: 79000,
     image:
-      "https://images.unsplash.com/photo-1615328713353-0ed2b1a91cd2?w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "original",
     sauces: ["Sốt Kem", "Sốt Cay"],
   },
@@ -104,7 +104,7 @@ export const menuItems: MenuItem[] = [
       "Miếng gà phi lê tẩm bột chiên giòn, gia vị bí truyền cay nồng — ăn là ghiền.",
     price: 85000,
     image:
-      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "original",
     tag: "Spicy",
     tagType: "spicy",
@@ -117,7 +117,7 @@ export const menuItems: MenuItem[] = [
       "1 con gà chiên nguyên con giòn rụm, phần ăn dành cho 3-4 người. Da giòn, thịt mềm, thấm đều gia vị.",
     price: 259000,
     image:
-      "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/3729465/pexels-photo-3729465.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "original",
     tag: "Cho nhóm",
     tagType: "popular",
@@ -132,7 +132,7 @@ export const menuItems: MenuItem[] = [
       "Gà Original giòn rụm phủ sốt Pesto húng quế Ý thơm lừng, béo ngậy. Vị Á-Âu bùng nổ trong từng miếng cắn.",
     price: 85000,
     image:
-      "https://images.unsplash.com/photo-1606758227628-247fcee13370?w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "fusion",
     tag: "Best Seller",
     tagType: "fusion",
@@ -149,7 +149,7 @@ export const menuItems: MenuItem[] = [
       "Lớp sốt trứng muối mặn ngọt béo ngậy áo đều từng miếng gà giòn. Hương vị Signature không thể bỏ lỡ.",
     price: 89000,
     image:
-      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/3497210/pexels-photo-3497210.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "fusion",
     tag: "Signature",
     tagType: "signature",
@@ -166,7 +166,7 @@ export const menuItems: MenuItem[] = [
       "Gà giòn tưới sốt bơ tỏi thơm nức kết hợp rau mùi tây Parsley tươi xanh. Vị thanh nhẹ mà đậm đà.",
     price: 85000,
     image:
-      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "fusion",
     tag: "New",
     tagType: "new",
@@ -183,7 +183,7 @@ export const menuItems: MenuItem[] = [
       "Gà giòn phủ sốt mật ong cay ngọt — cay nồng trước, ngọt dịu sau. Gây nghiện từ miếng đầu tiên.",
     price: 89000,
     image:
-      "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "fusion",
     tag: "Spicy",
     tagType: "spicy",
@@ -202,7 +202,7 @@ export const menuItems: MenuItem[] = [
       "Khoai tây cắt múi cau chiên giòn vàng, bên ngoài giòn tan bên trong mềm dẻo, rắc muối biển.",
     price: 35000,
     image:
-      "https://images.unsplash.com/photo-1599599650435-75ea97119e6c?w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "side",
     tag: "Side",
     tagType: "side",
@@ -214,7 +214,7 @@ export const menuItems: MenuItem[] = [
       "Khoai tây sợi mỏng giòn rụm kiểu Hàn, lắc phô mai hoặc xí muội siêu cuốn.",
     price: 30000,
     image:
-      "https://images.unsplash.com/photo-1585238341710-4abb3c8a95a6?w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "side",
   },
   {
@@ -224,7 +224,7 @@ export const menuItems: MenuItem[] = [
       "Khoai tây hình mặt cười chiên giòn vui mắt — món khoái khẩu của cả trẻ em lẫn người lớn.",
     price: 35000,
     image:
-      "https://images.unsplash.com/photo-1585238341710-4abb3c8a95a6?w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "side",
     tag: "Hot",
     tagType: "popular",
@@ -236,7 +236,7 @@ export const menuItems: MenuItem[] = [
       "Bắp cải trắng tím thái sợi trộn sốt mayo-chanh, giòn mát chống ngấy hoàn hảo.",
     price: 20000,
     image:
-      "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/1092949/pexels-photo-1092949.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "side",
     tag: "Healthy",
     tagType: "new",
@@ -248,7 +248,7 @@ export const menuItems: MenuItem[] = [
       "Coca-Cola, Pepsi, Sprite, Fanta — size M đá lạnh sảng khoái.",
     price: 15000,
     image:
-      "https://images.unsplash.com/photo-1554866585-cd4628902d4a?w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "side",
   },
 ];
