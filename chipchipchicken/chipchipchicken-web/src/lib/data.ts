@@ -117,7 +117,7 @@ export const menuItems: MenuItem[] = [
       "1 con gà chiên nguyên con giòn rụm, phần ăn dành cho 3-4 người. Da giòn, thịt mềm, thấm đều gia vị.",
     price: 259000,
     image:
-      "https://images.pexels.com/photos/3729465/pexels-photo-3729465.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
+      "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop",
     category: "original",
     tag: "Cho nhóm",
     tagType: "popular",
