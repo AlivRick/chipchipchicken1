@@ -2,10 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 import { motion } from "motion/react";
 
 export default function Navbar() {
   const pathname = usePathname();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
     { href: "/", label: "Home" },
@@ -20,7 +22,7 @@ export default function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
     >
-      <div className="flex justify-between items-center px-4 sm:px-6 py-3  sm:py-4 max-w-7xl mx-auto w-full">
+      <div className="flex justify-between items-center px-4 sm:px-6 py-3 sm:py-4 max-w-7xl mx-auto w-full min-h-[70px] sm:min-h-[80px]">
         {/* Brand */}
         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
           <Link
@@ -84,55 +86,72 @@ export default function Navbar() {
               Order Now
             </Link>
           </motion.div>
+
+          {/* Hamburger Button */}
+          <motion.button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="md:hidden flex flex-col gap-1.5 p-2"
+            whileTap={{ scale: 0.9 }}
+          >
+            <motion.div
+              className="w-6 h-0.5 bg-on-surface rounded"
+              animate={isMenuOpen ? { rotate: 45, y: 12 } : { rotate: 0, y: 0 }}
+              transition={{ duration: 0.3 }}
+            />
+            <motion.div
+              className="w-6 h-0.5 bg-on-surface rounded"
+              animate={isMenuOpen ? { opacity: 0 } : { opacity: 1 }}
+              transition={{ duration: 0.3 }}
+            />
+            <motion.div
+              className="w-6 h-0.5 bg-on-surface rounded"
+              animate={isMenuOpen ? { rotate: -45, y: -12 } : { rotate: 0, y: 0 }}
+              transition={{ duration: 0.3 }}
+            />
+          </motion.button>
         </motion.div>
       </div>
 
-      {/* Mobile Bottom Nav */}
+      {/* Mobile Side Menu */}
       <motion.div
-        className="md:hidden fixed bottom-0 left-0 right-0 w-full rounded-t-3xl z-50 bg-surface-container-lowest/90 backdrop-blur-lg shadow-[0_-10px_30px_rgba(0,0,0,0.05)]"
-        initial={{ y: 80 }}
-        animate={{ y: 0 }}
-        transition={{ delay: 0.2, duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+        className="md:hidden fixed top-0 right-0 h-screen w-64 bg-surface z-40 shadow-[-10px_0_30px_rgba(0,0,0,0.1)]"
+        initial={{ x: 280 }}
+        animate={{ x: isMenuOpen ? 0 : 280 }}
+        transition={{ type: "spring", stiffness: 300, damping: 30 }}
       >
-        <div className="flex justify-around items-center px-4 pb-6 pt-3">
-          {navLinks.map((link) => {
-            const isActive = pathname === link.href;
-            const icons: Record<string, string> = {
-              "/": "home",
-              "/menu": "restaurant_menu",
-              "/about": "info",
-            };
-            return (
+        <div className="pt-24 px-6 space-y-2">
+          {navLinks.map((link) => (
+            <motion.div
+              key={link.href}
+              whileHover={{ x: 8 }}
+              whileTap={{ x: 4 }}
+            >
               <Link
-                key={link.href}
                 href={link.href}
-                className="relative flex flex-col items-center justify-center rounded-xl px-4 py-2"
+                onClick={() => setIsMenuOpen(false)}
+                className={`block py-4 px-4 rounded-xl font-[var(--font-headline)] font-bold text-lg transition-all ${
+                  pathname === link.href
+                    ? "bg-primary-container text-on-primary-container"
+                    : "text-on-surface hover:bg-surface-container-lowest"
+                }`}
               >
-                {isActive && (
-                  <motion.div
-                    className="absolute inset-0 bg-primary-container/30 rounded-2xl"
-                    layoutId="mobileNavIndicator"
-                    transition={{ type: "spring", stiffness: 350, damping: 30 }}
-                  />
-                )}
-                <span
-                  className={`material-symbols-outlined mb-1 relative z-10 ${isActive ? "text-primary-dim" : "text-on-surface-variant"}`}
-                  style={
-                    isActive
-                      ? { fontVariationSettings: "'FILL' 1" }
-                      : undefined
-                  }
-                >
-                  {icons[link.href]}
-                </span>
-                <span className={`text-[10px] uppercase font-bold tracking-widest font-[var(--font-body)] relative z-10 ${isActive ? "text-primary-dim" : "text-on-surface-variant"}`}>
-                  {link.label}
-                </span>
+                {link.label}
               </Link>
-            );
-          })}
+            </motion.div>
+          ))}
         </div>
       </motion.div>
+
+      {/* Overlay */}
+      {isMenuOpen && (
+        <motion.div
+          className="md:hidden fixed inset-0 bg-black/30 z-30"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          onClick={() => setIsMenuOpen(false)}
+        />
+      )}
     </motion.nav>
   );
 }
